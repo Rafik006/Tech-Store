@@ -1,0 +1,44 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart-item{
+    margin-top: 30px;
+   width: 700px;
+   height: 250px;
+   display: flex; 
+   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+   border-radius: 25px;
+   margin: 30px;
+   font-size: 32px;
+   padding: 20px;
+}
+.cart-item img{
+    width: 250px;
+    margin-right:20px;
+}
+.count-handler{
+    display: flex;
+    align-items: center;
+}
+.count-handler input{
+    width: 40px;
+    height: 15px;
+    text-align: center;
+}
+.checkout button{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.checkout p {
+    font-size: 20px;
+}
